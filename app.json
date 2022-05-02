@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "AppCeet",
+    "slug": "AppCeet",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
