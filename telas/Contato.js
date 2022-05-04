@@ -10,3 +10,5 @@ const Contato = () => {
         </View>
     );
 }
+
+export default Contato; 
