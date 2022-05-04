@@ -1,4 +1,4 @@
-import react from "react";
+import {react} from "react";
 import {View, Text, Button, Image} from "react-native";
 import Estilo from "../estilo/Estilo";
 import MenuPrincipal from "./MenuPrincipal";
@@ -18,6 +18,7 @@ const TelaPrincipal = ({navigation}) =>{
         <Button title="Historia" onPress={() => navigation.navigate('Historia')}/>
         <Button title="Cursos" onPress={() => navigation.navigate('Cursos')}/>
         <Button title="Portal" onPress={() => navigation.navigate('Portal')}/>
+        <Button title="Contato" onPress={() => navigation.navigate('Contato')}/>
         </ScrollView>
   </SafeAreaView>  
     </View>

@@ -1,9 +1,7 @@
-import React from 'react'; 
-import { SafeAreaView, View, ScrollView, StyleSheet } from 'react-native'; 
+import {react} from 'react'; 
+import { SafeAreaView, View, ScrollView, StyleSheet,Text } from 'react-native'; 
 import { Avatar, Button, Card, Title, Paragraph } from 'react-native-paper';
 import BarraSuperior from './BarraSuperior';
-
-const LeftContent = () => <Avatar.Icon size={40} icon="pizza" />
 
 const App = ({navigation}) => { 
   return ( 

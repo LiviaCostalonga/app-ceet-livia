@@ -42,5 +42,6 @@ const Navegacao = ({navigation}) =>{
        <Image source={require('../img/logo.png')}/>
       <Button title="Historia" onPress={() => navigation.navigate('Historia')}/>
       <Button title="Cursos" onPress={() => navigation.navigate('Cursos')}/>
+      <Button title="Cursos" onPress={() => navigation.navigate('Cursos')}/>
   </View>
 }
